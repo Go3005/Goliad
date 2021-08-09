@@ -115,7 +115,7 @@
             echo "Be Patient!!! If you think the app is frozen its not, when its done you will know and it will go back to the Goliad Menu"
             rm -rf CONNECTIONS
             mkdir -p CONNECTIONS
-            cd CONNECTIONS
+            cd CONNECTIONS || return
 
             lynx -dump -listonly "https://www.vpngate.net/en/" | grep "fqdn" | awk -F ' ' '{print $2}' > /tmp/sub1.txt
             while read LINE; do  lynx -dump -listonly  "${LINE}" ; done < /tmp/sub1.txt >/tmp/sub2.txt
