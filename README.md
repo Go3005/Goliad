@@ -28,7 +28,7 @@
 #### Step 3.
 	Open a terminal run
 	If you chose option #1 & #2
-	In the terminal type sh goliad.sh
+	In the terminal type ./goliad.sh
 ### I will make a video for those that don't have a lot of experience in a terminal
 #### Step 4. 
 	In the Goliad software press option #1 Connect To VPN
