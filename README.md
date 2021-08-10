@@ -2,7 +2,7 @@
 # GOLIAD
 ### Author: Jonathan Scott  @jonathandata1
 ![GOLIAD - VPN Service For All](https://i.postimg.cc/Mp3SCmXJ/goliad-vpn.jpg)
-### CURRENT VERSION 1.0 - SUPER BETA
+### CURRENT VERSION 1.1 - BETA
 > OpenVPN Client that dynamically pulls the latest regional, secure, & most reliable .ovpn configuration files for instant connections without the hassle of searching for a source.
 
 - No Logging
@@ -32,10 +32,7 @@
 ### I will make a video for those that don't have a lot of experience in a terminal
 #### Step 4. 
 	In the Goliad software press option #1 Connect To VPN
-	You will be asked to drag and drop a .ovpn file into the terminal
-	Open the Goliad folder and you will see a directory named CONNECTIONS
-	Choose any of the files and drag it into your terminal
-		This will be a lot cleaner in the next version, if you are reading the code you will see I commented out a lot of dynamic code, but I really wanted to get this out to everyone.
+	Select a VPN from the list
 	Once you have done this, then press enter
 	You will now be connected to a VPN!
 	To check what country you are connected to in your terminal
@@ -61,7 +58,7 @@ The .ovpn sources are already download for you because some people's connections
 
 > **Option 3:** `sudo yum install -y openvpn`
 
-> ### Peco (Not Needed For Version 1.0 - Beta But Will Be Need In The Future)
+> ### Peco 
 > #### MacOS
 > **1.** `brew install peco`
 

@@ -211,12 +211,16 @@
     }
         method_1(){
 
-        echo "Drag and Drop You VPN File Here & Press Enter"
+        echo "Select a VPN From The List"
 
 
-        #vpn=$(ls "${DIR}"/CONNECTIONS | peco)
 
-        read goliad
+
+
+
+        goliad=$(ls -d -1 $PWD/CONNECTIONS/* | peco | xargs)
+
+        #read "${goliad}"
 
         sudo openvpn --config "${goliad}" --auth-nocache
 
