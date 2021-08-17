@@ -2,7 +2,14 @@
 # GOLIAD
 ### Author: Jonathan Scott  @jonathandata1
 ![GOLIAD - VPN Service For All](https://i.postimg.cc/Mp3SCmXJ/goliad-vpn.jpg)
-### CURRENT VERSION 1.1 - BETA
+### CURRENT VERSION 1.3 - BETA
+
+> MAC ADDRESS SPOOFING NOW AVAILABLE 
+
+- Change your Wi-Fi, Ethernet, or Bluetooth MAC Address instantly, and connect to the VPN of your choice
+- This helps you with anonymity and stop IDS/IPS systems from banning your computers MAC Address
+- NOTE: You must have homebrew installed on your LINUX machine to install spoof-mac 
+
 > OpenVPN Client that dynamically pulls the latest regional, secure, & most reliable .ovpn configuration files for instant connections without the hassle of searching for a source.
 
 - No Logging
@@ -58,10 +65,19 @@ The .ovpn sources are already download for you because some people's connections
 
 > **Option 3:** `sudo yum install -y openvpn`
 
+
+
+> ### Spoof-MAC 
+> #### MacOS
+> **1.** `brew install spoof-mac`
+
+> #### Linux
+
+> `brew install spoof-mac`
+
 > ### Peco 
 > #### MacOS
 > **1.** `brew install peco`
-
 
 > #### Linux
 
