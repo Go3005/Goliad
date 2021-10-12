@@ -122,6 +122,7 @@
             while read LINE; do  lynx -dump -listonly  "${LINE}" ; done < /tmp/sub1.txt >/tmp/sub2.txt
             cat /tmp/sub2.txt | grep ".ovpn" | awk -F ' ' '{print $2}'  > /tmp/sub3.txt
             while read LINE;do curl -O "${LINE}"; done</tmp/sub3.txt
+            cd -
 
        # I am checking for new mirrored addresses so i can then download the .ovpn files
        # These endpoints are updated every 24 hours, but there is no need to create a cronjob locally for this as it would take too many resources
